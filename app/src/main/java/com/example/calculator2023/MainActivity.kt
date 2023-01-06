@@ -95,7 +95,11 @@ class MainActivity : AppCompatActivity() {
                 result = oldNumber * tvResult?.text.toString().toDouble()
             }
         }
-        tvResult?.text = "$result"
+        if (result == result.toInt().toDouble()){
+            tvResult?.text = "${result.toInt()}"
+        }else{
+            tvResult?.text = "$result"
+        }
         operater = null
         oldNumber = result
     }
