@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Calculator2023</string>
+    <string name="multiplication">*</string>
+    <string name="division">/</string>
+    <string name="subtraction">-</string>
+    <string name="summation">+</string>
+    <string name="clear">CLR</string>
+    <string name="dot">.</string>
+    <string name="equation">=</string>
+</resources>
